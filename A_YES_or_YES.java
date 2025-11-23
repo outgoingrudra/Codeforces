@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+
+public class A_YES_or_YES{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int tests = sc.nextInt();
+        while(tests-- > 0)
+        {
+            String s = sc.next().toLowerCase() ;
+            if(s.equals("yes"))
+                System.out.println("YES");
+            else 
+               System.out.println("NO");
+
+        }
+    }
+}
